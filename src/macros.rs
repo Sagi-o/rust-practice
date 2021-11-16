@@ -118,11 +118,11 @@ fn main() {
         "one" => 1,
         "two" => 2,
         "three" => 3,
-    }
+    };
 
     calc! {
         eval 4 + 5,
         eval 4 + 10,
         eval (10 * 3) - 20
-    }
+    };
 }
