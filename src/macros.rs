@@ -80,7 +80,7 @@ macro_rules! calc {
     (eval $e: expr, $(eval $es: expr),+) => {
         {
             calc! {eval $e} // called once for first calc
-            calc! { $(eval $es),+} // $(...)+ callsTech for each pattern after the first
+            calc! { $(eval $es),+} // $(...)+ calls for each pattern after the first
         }
     }
 }
