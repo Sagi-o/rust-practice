@@ -110,8 +110,34 @@ fn main() {
     // - Arrays and variables
     let mut x: u32 = 10;
 
-    let nums = 1..11; // [..)
+    let nums = 1..11; // like [..)
 
+    // - Infinite loop
+    let mut n = 0;
+
+    loop {
+        n += 1
+        if (n == 7) {
+            println!("Number is 7");
+            continue;
+        }
+        if (n > 10) {
+            println!("Number passed 10");
+            break;
+        }
+    }
+
+    // - While loops
+    let mut n2 = 0;
+
+    while n2 <= 50 {
+        if n % 5 == 0 {
+            println!("{} is divide by 5", n2);
+        }
+        n += 1;
+    }
+
+    // - For loops
     let animals = vec!["Rabbit", "Dog", "Cat"];
 
     for a in animals.iter() {
@@ -126,7 +152,7 @@ fn main() {
         println!("The number is {}", i);
     }
 
-    // - Enums and match/switch statement
+    // - Enums and match statement
     let player_direction: Direction = Direction::Right;
 
     match player_direction {
