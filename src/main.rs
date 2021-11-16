@@ -25,6 +25,7 @@ use std::process::Command;
 extern crate serde_json;
 use serde_json::Value as JsonValue;
 
+// JSONs serialization to structs
 extern crate serde;
 
 #[macro_use]
