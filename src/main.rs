@@ -406,9 +406,7 @@ fn main() {
     println!("{}", response_text);
 
     // - Execute terminal commands
-
-    // build command: python script.py
-    let mut cmd = Command::new("python");
+    let mut cmd = Command::new("python"); // python script.py
     cmd.arg("script.py");
 
     // execute the command
@@ -423,7 +421,7 @@ fn main() {
         }
     }
 
-    // Work with JSONs
+    // - Work with JSONs
     let json_str = r#"
         {
             "name": "John",
