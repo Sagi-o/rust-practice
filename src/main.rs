@@ -18,7 +18,7 @@ use rand::Rng;
 // Use HTTP requests
 extern crate reqwest;
 
-// Execute another languages commands
+// Execute terminal commands
 use std::process::Command;
 
 // For working with JSONs
