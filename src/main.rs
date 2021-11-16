@@ -21,7 +21,7 @@ extern crate reqwest;
 // Execute another languages commands
 use std::process::Command;
 
-// Work with JSONs
+// For working with JSONs
 extern crate serde_json;
 use serde_json::Value as JsonValue;
 
