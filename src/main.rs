@@ -5,7 +5,7 @@ use std::io::prelude::*;
 // For CMD Arguments
 use std::env;
 
-// Inputs
+// IO operations
 use std::io;
 
 // Hashmaps
